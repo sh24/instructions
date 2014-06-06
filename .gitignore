@@ -1,0 +1,8 @@
+*.lock
+.rvmrc
+.sass-cache
+.ruby-version
+.ruby-gemset
+
+_site
+assets/css
