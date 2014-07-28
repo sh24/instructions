@@ -8,3 +8,8 @@ Run it:
 
     jekyll serve -w --baseurl ''
 
+Watch it:
+
+    cd _sass
+    compass watch
+
