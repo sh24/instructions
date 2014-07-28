@@ -14,6 +14,14 @@ Watch it:
     cd _sass
     compass watch
 
+Set up deploy folder:
+
+    cd deploy
+    git init .
+    git checkout -b gh-pages
+    git commit -am 'Initial commit'
+    git remote add origin ...
+
 Deploy it:
 
     rake deploy
