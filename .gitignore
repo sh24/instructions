@@ -3,4 +3,5 @@
 .ruby-gemset
 .sass-cache
 assets/css
+deploy
 _site
