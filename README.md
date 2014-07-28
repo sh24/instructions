@@ -13,3 +13,6 @@ Watch it:
     cd _sass
     compass watch
 
+Deploy it:
+
+    rake deploy
