@@ -6,4 +6,5 @@ Bundle it:
 
 Run it:
 
-    jekyll serve -w
+    jekyll serve -w --baseurl ''
+

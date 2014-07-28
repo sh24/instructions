@@ -1,1 +1,2 @@
 exclude: ['Gem*','Guard*','*.rb','.git*','README.md']
+baseurl: /your-url
