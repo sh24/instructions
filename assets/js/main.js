@@ -1,3 +1,17 @@
-(function () {
-  console.log('Page loaded');
-})();
+(function ($) {
+  $("#slides").slidesjs({
+    width: 400,
+    height: 500,
+    pagination: {
+      active: false
+    },
+    navigation: {
+      active: false,
+      effect: 'slide'
+    }
+  });
+
+  $("#slides a").click(function (e) {
+    e.preventDefault();
+  });
+})(jQuery);
