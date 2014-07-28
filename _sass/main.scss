@@ -7,6 +7,7 @@ $panel-colour: #60efa8;
 $panel-colour-bottom: #4ecb8e;
 $hover-colour: #e8e8e8;
 $instruction-list-font-colour: #000;
+$button-colour-gray: #838a95;
 
 body {
   font-family: 'Helvetica Neue';
@@ -55,3 +56,28 @@ body {
     }
   }
 }
+
+#slides {
+  display: none;
+  width: 100%;
+}
+
+.slidesjs-next,
+.slidesjs-previous {
+  background-color: $button-colour-gray;
+  margin-top: 10px;
+  display: block;
+  float: left;
+  width: 50%;
+  overflow: auto;
+
+  color: white;
+  text-align: center;
+  text-decoration: none;
+
+  span {
+    display: block;
+    padding: 20px;
+  }
+}
+
