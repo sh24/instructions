@@ -3,6 +3,10 @@
 
 $background-colour: #f2f3f5;
 $banner-colour: #53585f;
+$panel-colour: #60efa8;
+$panel-colour-bottom: #4ecb8e;
+$hover-colour: #e8e8e8;
+$instruction-list-font-colour: #000;
 
 body {
   font-family: 'Helvetica Neue';
@@ -18,5 +22,36 @@ body {
     font-weight: 200;
     font-size: 28px;
     padding: 8px;
+  }
+}
+
+.outer-page {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.inner-page {
+  padding: 10px;
+}
+
+.instruction-list {
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: $panel-colour;
+  border-bottom: 10px solid $panel-colour-bottom;
+
+  li {
+    margin: 10px;
+    background-color: white;
+    padding: 20px 10px;
+  }
+
+  a, a:visited {
+    color: $instruction-list-font-colour;
+    text-decoration: none;
+
+    &:hover li {
+      background-color: $hover-colour;
+    }
   }
 }
