@@ -1,5 +1,20 @@
-$BG-COLOUR: #efefef;
+
+$background-colour: #f2f3f5;
+$banner-colour: #53585f;
 
 body {
-  background-color: $BG-COLOUR;
+  font-family: 'Helvetica Neue';
+  background-color: $background-colour;
+}
+
+.banner {
+  background-color: $banner-colour;
+
+  h1 {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    font-size: 28px;
+    padding: 8px;
+  }
 }
