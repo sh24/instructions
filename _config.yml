@@ -1,2 +1,1 @@
 exclude: ['Gem*','Guard*','*.rb','.git*','README.md']
-baseurl: /jekyll-template
