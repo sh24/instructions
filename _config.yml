@@ -1,1 +1,1 @@
-exclude: ['Gem*','Guard*','*.rb','.git*','README.md']
+exclude: ['Gem*','Guard*','*.rb','.git*','README.md','deploy','Rakefile']
