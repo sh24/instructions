@@ -4,7 +4,10 @@ title: Title
 ---
 
 <div id="slides">
-  <img src="http://placehold.it/401x500">
+  <div class="bar">
+    <img src="{{ site.baseurl }}/assets/img/handwash.gif">
+    <p>foo</p>
+  </div>
   <img src="http://placehold.it/402x500">
   <img src="http://placehold.it/403x500">
   <img src="http://placehold.it/404x500">
@@ -18,3 +21,14 @@ title: Title
   </a>
 </div>
 
+<style>
+  .bar {
+    position: relative;
+  }
+  p {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  img {width:100%;}
+</style>
