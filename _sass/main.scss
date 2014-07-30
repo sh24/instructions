@@ -22,11 +22,14 @@ a, a:visited {
   background-color: $banner-colour;
 
   h1 {
-    color: white;
     text-align: center;
     font-weight: 200;
     font-size: 28px;
     padding: 8px;
+
+    a {
+      color: white;
+    }
   }
 }
 
