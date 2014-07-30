@@ -80,53 +80,56 @@ a, a:visited {
 }
 /* line 24, ../../_sass/main.scss */
 .banner h1 {
-  color: white;
   text-align: center;
   font-weight: 200;
   font-size: 28px;
   padding: 8px;
 }
+/* line 30, ../../_sass/main.scss */
+.banner h1 a {
+  color: white;
+}
 
-/* line 33, ../../_sass/main.scss */
+/* line 36, ../../_sass/main.scss */
 .outer-page {
   max-width: 420px;
   margin: 0 auto;
 }
 
-/* line 38, ../../_sass/main.scss */
+/* line 41, ../../_sass/main.scss */
 .inner-page {
   padding: 10px;
 }
 
-/* line 42, ../../_sass/main.scss */
+/* line 45, ../../_sass/main.scss */
 .instruction-list {
   margin-top: 20px;
   padding: 10px 0;
   background-color: #60efa8;
   border-bottom: 10px solid #4ecb8e;
 }
-/* line 48, ../../_sass/main.scss */
+/* line 51, ../../_sass/main.scss */
 .instruction-list li {
   margin: 10px;
   background-color: white;
   padding: 20px 10px;
 }
-/* line 54, ../../_sass/main.scss */
+/* line 57, ../../_sass/main.scss */
 .instruction-list a {
   color: black;
 }
-/* line 57, ../../_sass/main.scss */
+/* line 60, ../../_sass/main.scss */
 .instruction-list a:hover li {
   background-color: #e8e8e8;
 }
 
-/* line 63, ../../_sass/main.scss */
+/* line 66, ../../_sass/main.scss */
 #slides {
   display: none;
   width: 100%;
 }
 
-/* line 69, ../../_sass/main.scss */
+/* line 72, ../../_sass/main.scss */
 .slidesjs-next,
 .slidesjs-previous {
   background-color: #838a95;
@@ -139,7 +142,7 @@ a, a:visited {
   text-align: center;
   text-decoration: none;
 }
-/* line 81, ../../_sass/main.scss */
+/* line 84, ../../_sass/main.scss */
 .slidesjs-next span,
 .slidesjs-previous span {
   display: block;
