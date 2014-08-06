@@ -4,13 +4,18 @@
   {% include head.html %}
 
   <body>
-    <div class="banner">
-      <h1><a href='{{ site.baseurl }}/'>SH24</a></h1>
-    </div>
+    <div class="main-container">
+      <div class="banner">
+        <a href='{{ site.baseurl }}/'>
+          <img src="{{ site.baseurl }}/assets/img/ab-sh24-logo.png" alt="SH24" class="logo">
+        </a>
+        <img src="{{ site.baseurl }}/assets/img/ab-hamburger.png" class="navigation" alt="Navigation">
+      </div>
 
-    <div class="outer-page">
-      <div class="inner-page">
-        {{ content }}
+      <div class="outer-page">
+        <div class="inner-page">
+          {{ content }}
+        </div>
       </div>
     </div>
   </body>
