@@ -40,10 +40,11 @@ body {
   margin: 0 auto;
 }
 
-.outer-page {
-  max-width: 320px;
+.main-video-container {
+  max-width: 560px;
   margin: 0 auto;
 }
+
 
 .banner {
   margin-bottom: 8px;
@@ -119,9 +120,21 @@ body {
 
   .slide-content {
     width: 292px;
+    padding: 0 14px;
+  }
+}
+
+.video-container {
+  .video-content {
+    width: 492px;
+    padding: 0 14px;
+  }
+}
+
+.slide-content,
+.video-content {
     margin-bottom: 40px;
     margin-top: 22px;
-    padding: 0 14px;
     color: $gray;
 
     h1 {
@@ -151,5 +164,4 @@ body {
     ul { list-style: disc }
     ol { list-style: decimal }
     li { margin-bottom: 20px }
-  }
 }
