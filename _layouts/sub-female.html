@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="main-container">
+      <div class="banner">
+        <a href='{{ site.baseurl }}/'>
+          <img src="{{ site.baseurl }}/assets/img/ab-sh24-logo.png" alt="SH24" class="logo">
+        </a>
+        <a href='{{ site.baseurl }}/'>
+          <img src="{{ site.baseurl }}/assets/img/ab-hamburger.png" class="navigation" alt="Navigation">
+        </a>
+      </div>
+
+      <div class="outer-page">
+        <div class="inner-page">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+</html>
