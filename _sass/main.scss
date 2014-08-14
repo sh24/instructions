@@ -141,6 +141,9 @@ body {
 }
 
 .video-container {
+  .video {
+    background-color: $light-gray;
+  }
   .video-content {
     width: 492px;
     padding: 0 14px;
